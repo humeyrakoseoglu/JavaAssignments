@@ -5,22 +5,13 @@ public class Question14 {
         kareOlustur(3);
     }
 
-  //  public static void kareOlustur(int n) {
-  //      System.out.println("+--".repeat(n) + "+");  // ilk satır
-  //      for(int i=0; i<n; i++) {
-  //          System.out.println("|  ".repeat(n) + "|");  // orta satırlar
-  //          System.out.println("+--".repeat(n) + "+");
-  //      }
-  //  }
-
     public static void kareOlustur(int n) {
-        // ilk satır
+        //ilk satir
         for(int i = 0; i < n; i++) {
             System.out.print("*--");
         }
         System.out.println("*");
-
-        // kareyi oluşturma
+        //diger satirlar
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 System.out.print("|  ");
@@ -32,6 +23,4 @@ public class Question14 {
             System.out.println("*");
         }
     }
-
-
 }
