@@ -3,7 +3,7 @@ package Question1;
 public class Test {
     public static void main(String[] args) {
         Arac volvo= new Arac();
-        volvo.hiz = 200;
+        volvo.setHiz(100);
         System.out.println("Hızı: " + volvo.HiziGetir());
         System.out.println("Araba duracak.");
         volvo.Dur();

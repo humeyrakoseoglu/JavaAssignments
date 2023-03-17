@@ -27,7 +27,7 @@ public class Test {
         System.out.println("Bitter cikolata upcast oranları sut : " + bitterDowncast.getSutOrani() +
                 ", kakao: " + bitterDowncast.getKakaoOrani());
 
-        // FindikliCikolata sınıfından Cikolata sınıfına upcasting işlemi
+        //Cikolata sınıfından FindikliCikolata sınıfına downcast işlemi
         FindikliCikolata findikliDowncast = (FindikliCikolata) findikliUpcast;
         findikliDowncast.setFindikOrani(0.4);
         System.out.println("Findikli cikolata upcast oranları sut: " + findikliDowncast.getSutOrani() +

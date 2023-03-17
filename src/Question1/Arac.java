@@ -1,7 +1,7 @@
 package Question1;
 
 public class Arac implements UlasimAraci, KaraAraci { //Bir sınıf birden fazla interface implements edebilir
-    int hiz;
+    int hiz; //doğrudan dışarıdan değiştirilmesini önlemek için
 
     @Override
     public void Dur() {
@@ -28,4 +28,8 @@ public class Arac implements UlasimAraci, KaraAraci { //Bir sınıf birden fazla
     public int HiziGetir() {
         return hiz;
     } //Aracın hızını döner
+
+    public void setHiz(int hiz) {
+        this.hiz = hiz;
+    }
 }

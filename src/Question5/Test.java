@@ -14,8 +14,10 @@ public class Test {
         hastane.doktorEkle(doktorArslan);
         hastane.doktorEkle(doktorZenan);
 
-        hastane.doktorlariGoruntule();
-
+        // hastane.doktorlariGoruntule();
+        for(int i = 0; i < hastane.getDoktorlar().size(); i++){
+            hastane.getDoktorlar().get(i).doktoruYazdir();
+        }
     }
 
 

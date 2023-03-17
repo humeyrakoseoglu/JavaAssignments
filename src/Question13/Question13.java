@@ -23,9 +23,9 @@ public class Question13 {
         }
         for(int i =0; i<array.size();i++){
             double yuzde=((double)array.get(i)/total)*100;
-            System.out.println(""+array.get(i)+" "+ String.format("%.1f",yuzde)+"%");
+            System.out.println(""+array.get(i)+"  %"+ String.format("%.1f",yuzde));
         }
-
+        System.out.println(""+total+" %100.0");
     }
 
 }

@@ -32,28 +32,15 @@ public class KolSaati { //12lik saat dilimine göre
             System.out.println("Geçersiz bir değer girdiniz:");
         }
     }
-
     public int getSaat() {
         return saat;
-    }
-
-    public void setSaat(int saat) {
-        this.saat = saat;
     }
 
     public int getDakika() {
         return dakika;
     }
 
-    public void setDakika(int dakika) {
-        this.dakika = dakika;
-    }
-
     public int getSaniye() {
         return saniye;
-    }
-
-    public void setSaniye(int saniye) {
-        this.saniye = saniye;
     }
 }

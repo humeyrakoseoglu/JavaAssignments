@@ -2,7 +2,7 @@ package Question15;
 
 public class Question15 {
     public static void main(String[] args) {
-        ucgenOlustur(3);
+        ucgenOlustur(10);
     }
 
     public static void ucgenOlustur(int n) {
@@ -10,8 +10,8 @@ public class Question15 {
         for (int k = 0; k <= n; k++) {
             System.out.print(" ");
         }
-        // orta satirlar
         System.out.println("+");
+        // orta satirlar
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n-i; j++) {
                 System.out.print(" ");

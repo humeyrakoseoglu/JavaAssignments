@@ -9,6 +9,14 @@ public class Dikdortgen extends Sekil{
         this.uzunKenar = uzunKenar;
     }
 
+    public int getUzunKenar() {
+        return uzunKenar;
+    }
+
+    public void setUzunKenar(int uzunKenar) {
+        this.uzunKenar = uzunKenar;
+    }
+
     @Override
     public double cevreHesapla() {
         return 2*(uzunKenar+kisaKenar);

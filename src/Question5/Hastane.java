@@ -17,6 +17,14 @@ public class Hastane {
         }
     }
 
+    public ArrayList<Doktor> getDoktorlar() {
+        return doktorlar;
+    }
+
+    public void setDoktorlar(ArrayList<Doktor> doktorlar) {
+        this.doktorlar = doktorlar;
+    }
+
     class Doktor{
         private String adi;
         private String soyadi;

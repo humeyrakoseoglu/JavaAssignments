@@ -8,6 +8,10 @@ public class Test {
         hastane.doktorUret("Suat", "Birtan");
         hastane.doktorUret("Arslan", "Ibrahimoglu");
         hastane.doktorUret("Zenan", "Parlar");
+
+        for(int i = 0; i < hastane.getDoktorlar().size(); i++){
+            hastane.getDoktorlar().get(i).doktoruYazdir();
+        }
         System.out.println("Toplam doktor sayısı: " + hastane.toplamDoktorSayisi);
     }
 

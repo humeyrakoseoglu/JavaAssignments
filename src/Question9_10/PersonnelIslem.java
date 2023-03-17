@@ -3,11 +3,11 @@ package Question9_10;
 public class PersonnelIslem {
     public void personelListele(Person [] people){
         for(Person p: people){
-            if (p.getClass().getName()=="Question9_10_11.Employee") {//inheritance edildiği sınıfı öğrenmek için
-                Employee emp = (Employee) p;
+            if (p.getClass().getName()=="Question9_10.Employee") {//inheritance edildiği sınıfı öğrenmek için
+                Employee emp = (Employee) p;//downcasting
                 System.out.println("name: "+emp.name+" age: "+emp.age+" salary "+emp.getSalary());
-            } else if (p.getClass().getName()=="Question9_10_11.Intern") {
-                Intern intern = (Intern) p;
+            } else if (p.getClass().getName()=="Question9_10.Intern") {
+                Intern intern = (Intern) p;//downcasting
                 System.out.println("name: "+intern.name+" age: "+intern.age+" school "+intern.getSchool());
             }
         }
